@@ -1,0 +1,8 @@
+<obj name="modreg" space="vpatch">
+	<module type="component" name="vp_sblogman" space="vpatch" rout="ridb" out="bid" />
+	<module type="component" name="vp_sblogview" space="vpatch" />
+	<module type="panel" name="vp_sblogman_ui" space="vpatch" />
+
+	<module type="panel" name="vp_sblogview_ui" space="vpatch" />
+	<module type="panel" name="vp_sblogsingle_ui" space="vpatch" />
+</obj>

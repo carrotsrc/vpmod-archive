@@ -1,0 +1,61 @@
+.register {
+	color: #808080;
+	width: 800px;
+}
+
+.register .rform {
+	color: #5084A7;
+	font-size: x-large;
+	width: 50%;
+	padding-top: 10px;
+}
+
+.register .rform td {
+	color: #808080;
+	font-size: x-large;
+	font-weight: bold;
+	max-width: 350px;
+}
+
+.register .rform .td-info {
+	color: #5084A7;
+	font-size: small;
+	text-align: left;
+}
+
+.register .rform .tr-info {
+}
+
+.register .rdata {
+	color: #808080;
+	width: 47%;
+	//background-color: white;
+	//border: 2px solid #7D9E05;
+	padding: 10px;
+	padding-top: 0px;
+	border-radius: 15px;
+}
+
+.register .rdata h3 {
+	color: #7D9E05;
+}
+
+.register .vform-text {
+	border-color: #9F9F9F;
+}
+
+.register .rbutton {
+	
+	background-color: #7D9E05;
+	background-color: #C7F66F;
+	background-color: #D8D8D8;
+	color: #7D9E05;
+	border-color: #808080;
+	color: #808080;
+	border-width: 1px;
+}
+
+.register .rform .error {
+	color: red;
+	font-size: large;
+}

@@ -1,0 +1,4 @@
+<obj name="modreg" space="vpatch">
+	<module type="component" name="vp_rbmanager" space="vpatch" />
+	<module type="panel" name="vp_rbin" space="vpatch" />
+</obj> 

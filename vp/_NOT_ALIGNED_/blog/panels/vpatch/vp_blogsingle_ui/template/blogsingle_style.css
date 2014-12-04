@@ -1,0 +1,37 @@
+.blog-container {
+	margin-top: -20;
+	padding: 10px;
+	background-image: url('APP-MEDIAvpatch/blog/squairy_light.png');
+	border: 1px solid #808080;
+	z-index: 0;
+	position: relative;
+	border-radius: 5px;
+}
+.blog-title-gap {
+	display: table-cell;
+	width: 20px;
+}
+.blog-title {
+	font-size: 20px;
+	background-color: #7D9E05;
+	color: #FFFFFF;
+	padding: 5px;
+	border-radius: 5px;
+	z-index: 1;
+	position: relative;
+	margin-left: 20px;
+	display: table-cell;
+	background-image: url('APP-MEDIAvpatch/blog/grad-green.png');
+	border: 1px solid #5d7604;
+	font-weight: bold;
+}
+
+.blog-content {
+	border: 1px solid #808080;
+	margin-top: 15px;
+	padding: 7px;
+	background-color: #FFFFFF;
+	color: #808080;
+	z-index: 0;
+	position: relative;
+}

@@ -1,0 +1,59 @@
+.registration-queue .content {
+	margin: 10px;
+	margin-top: 20px;
+	border: 1px solid #D8D8D8;
+	background-color: #D8D8D8;
+	border-radius: 5px;
+	padding: 1px;
+}
+.registration-queue table {
+	color: #7D9E05;
+	text-align: center;
+	border: 0px solid #D8D8D8;
+	padding: 0px;
+	border-collapse: collapse;
+	border-radius: 5px;
+}
+
+
+.registration-queue table .title {
+//	font-weight: bold;
+	font-size: normal;
+	color: #659a00;
+	border-bottom: 2px solid #D8D8D8;
+	background-color: #E2E0E0;
+	color: #808080;
+	background-image: url('APP-MEDIAvpatch/general/grey-grad.png');
+}
+.registration-queue table td{
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0px;
+	min-width: 50px;
+}
+
+.registration-queue table .content-row {
+	color: #7D9F3B;
+	color: #5084A7;
+	margin: 0px;
+	padding: 0px;
+	font-size: x-large;
+	background-color: #F1F1F1;
+	border-top: 2px dashed #d8d8d8;
+}
+
+.registration-queue table .content-row a {
+	color: #6FB2DF;
+	color: #5084A7;
+}
+
+
+.registration-queue table .content-row a:hover {
+	color: #6FB2DF !important;
+	text-decoration: none;
+}
+.registration-queue table .content-alt {
+	background-color: #FBF6F6;
+}
+

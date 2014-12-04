@@ -1,0 +1,113 @@
+html, body {
+	margin: 0px;
+	height: 100%;
+}
+#page-container {
+	position: relative;
+	min-height: 100%;
+	background-color: #333333;
+	background-color: #333333;
+	/* Congruent pentagon outline
+	 * Atle Mo
+	 * Subtlepatterns.com
+	 */
+	background-image: url('APP-MEDIAsurrounds/darkside/congruent.png');
+}
+#page-header {
+	position: relative;
+	background-color: #F89336;
+	border: 2px solid #CF6E19;
+	border-top-width: 0px;
+	-moz-box-sizing: border-box;
+	height: 150px;
+	margin-bottom: 20px;
+
+	background-image: url('APP-MEDIAsurrounds/darkside/grad.png');
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+
+#page-header .header-container {
+	padding: 15px;
+	display: block;
+	background-image: url('APP-MEDIAsurrounds/darkside/grid.png');
+	background-repeat: no-repeat;
+	height: 120px;
+}
+
+#page-header h1 {
+	margin-top: 0px;
+	font-size: 40px;
+}
+
+#page-content {
+	padding-bottom: 60px;
+	position: relative;
+	min-height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#page-footer {
+	position: absolute;
+	bottom: 0px;
+	height: 60px;
+}
+
+.spaced-tile {
+	display: inline-block;
+}
+
+.vpc-singlecol {
+	margin-left: 15%;
+	width: 70%;
+}
+
+.vpc-doublecol {
+	width: 50%;
+	display: block;
+}
+
+.vpc-widgetcol {
+	width: 20%;
+	float: left;
+	padding: 5px;
+	-moz-box-sizing: padding-box;
+}
+
+.vpc-widgetblock {
+	margin-bottom: 10px;
+}
+
+.vpc-widgetcontent {
+	width: 80%;
+	margin-left: 20%;
+	padding: 5px;
+	-moz-box-sizing: padding-box;
+}
+
+.vpc-wblock {
+	background-color: #EFEFEF;
+	display: block;
+	padding: 10px;
+	border: 3px solid #3C3C3C;
+	-moz-box-sizing: border-box;
+}
+
+.vpc-oblock {
+	display: block;
+}
+
+.bottom-rounded {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.top-rounded {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.rounded-container {
+	border-radius: 15px;
+}

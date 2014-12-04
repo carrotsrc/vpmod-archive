@@ -1,0 +1,45 @@
+<!-- 
+Initialize a common setup for registering users
+-->
+
+<obj name="modreg" space="vpatch">
+	<module type="component" name="vp_reguser" space="vpatch" rout="cuser" out="cid"/>
+	<module type="component" name="vp_reg_queue" space="vpatch" rout="cqueue" out="qid" />
+
+	<module type="panel" name="vp_reguser_ui" space="vpatch" />
+	<module type="panel" name="vp_activation_ui" space="vpatch" />
+	<module type="panel" name="vp_reg_queue_ui" space="vpatch" />
+
+</obj>
+
+<resource type="Instance" ref="1" label="sysc_reguser" rout="ridu" />
+<resource type="Instance" ref="1" label="sysc_reg_queue" rout="ridq" />
+
+<relationship parent="{cuser}" child="{ridu}" />
+<relationship parent="{cqueue}" child="{ridq}" />
+
+<!-- here we setup an area for registration and activation -->
+<obj name="areacfg" space="vpatch">
+	<area name="web" template="1" surround="1" out="areaid" rout="rida" />
+</obj>
+
+<obj name="wireframecfg" space="vpatch">
+	<layout name="register" rout="ridl">
+		<node type="1">
+			<leaf type="1" pid="vp_reguser_ui" cid="{cid}" ref="1" />
+		</node>
+	</layout>
+</obj>
+<!-- set layout as child of web area -->
+<relationship parent="{rida}" child="{ridl}" />
+
+<!-- this is for activation -->
+<obj name="wireframecfg" space="vpatch">
+	<layout name="activate" rout="ridl">
+		<node type="1">
+			<leaf type="1" pid="vp_activation_ui" cid="{cid}" ref="1" />
+		</node>
+	</layout>
+</obj>
+<!-- set layout as child of web area -->
+<relationship parent="{rida}" child="{ridl}" />

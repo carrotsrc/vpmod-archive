@@ -1,0 +1,52 @@
+.blog-container {
+	padding: 10px;
+	padding-top: 0px;
+//	background-image: url('APP-MEDIAvpatch/blog/squairy_light.png');
+//	border: 1px solid #808080;
+	z-index: 0;
+	position: relative;
+	border-radius: 5px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.blog-title {
+	font-size: 30px;
+	//background-color: #7D9E05;
+	background-color: white;
+	color: #FFFFFF;
+	color: black;
+	padding: 5px;
+	position: relative;
+/*	background-image: url('APP-MEDIAvpatch/blog/grad-green.png');
+	background-image: url('APP-MEDIAkura/header-grad2.png');*/
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100px;
+	-moz-box-sizing: padding-box;
+	display: block;
+	margin-right: 160px;
+	border-top-left-radius: 8px;
+}
+
+.blog-header-icon {
+	height: 100px;
+	border: 1px solid red;
+	background-image: url('APP-MEDIAkura/ss434.png');
+	border: 1px solid #5d7604;
+	border-color: #4B5F06;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.blog-content {
+//	border: 1px solid #808080;
+	padding: 7px;
+	padding-top: 15px;
+	background-color: #FFFFFF;
+	color: #808080;
+	position: relative;
+}

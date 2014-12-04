@@ -1,0 +1,21 @@
+<table name="profiles">
+	<column name="id" type="int(11)" extra="NOT NULL AUTO_INCREMENT" />
+	<column name="owner" type="int(11)" extra="NOT NULL" />
+	<column name="first" type="varchar(16)" extra="NOT NULL" />
+	<column name="surname" type="varchar(16)" extra="NOT NULL" />
+	<column name="status" type="varchar(255)" extra="NOT NULL" />
+	<column name="avatar" type="char(32)" extra="NOT NULL" />
+	<primary name="id" />
+</table>
+
+<table name="profiles_item">
+	<column name="id" type="int(11)" extra="NOT NULL AUTO_INCREMENT" />
+	<column name="profile" type="int(11)" extra="NOT NULL" />
+	<column name="type" type="varchar(32)" extra="NOT NULL" />
+	<column name="seq" type="int(11)" extra="NOT NULL" />
+	<column name="value" type="text" extra="NOT NULL" />
+	<primary name="id" />
+</table>
+
+
+<rtype name="Profile" base="entity" />

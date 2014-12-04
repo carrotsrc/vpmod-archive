@@ -1,0 +1,4 @@
+<obj name="modreg" space="vpatch">
+	<module type="component" name="vp_groupman" space="vpatch" />
+	<module type="panel" name="vp_groupman_ui" space="vpatch" />
+</obj>

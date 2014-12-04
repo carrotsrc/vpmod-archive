@@ -1,0 +1,71 @@
+.login-form-text {
+	border-radius: 5px;
+	border: 2px solid #D8D8D8;
+	color: #808080;
+	padding: 3px;
+}
+
+.login-form-button {
+	color: #808080;
+	border-bottom: 0px solid #808080;
+	border-right: 0px solid #808080;
+	background-color: #FDF8F8;
+	border: 1px solid #D8D8D8;
+	border-radius: 3px;
+}
+
+.login-font-x-large {
+	font-size: normal;
+}
+.login-font-x-large {
+	font-size: x-large;
+	color: #808080;
+}
+
+.login-font-xx-large {
+	font-size: xx-large;
+}
+
+.login-splash {
+	color: #659A00;
+	background-color:#C7F66F; 
+	border: 3px solid #B5F63E;
+	border: 3px solid #B3DD63;
+	border-radius: 5px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-top: 30px;
+	width: 250px;
+	height: 160px;
+	float: left;
+}
+
+.login-panel {
+	color: #808080;
+	background-color: #FDF8F8;
+	border: 3px solid #D8D8D8;
+	border-left: 0px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	padding: 10px;
+	padding-left: 15px;
+	padding-top: 30px;
+	margin-top: 10px;
+	float: left;
+	height: 140px;
+}
+
+.login-holder {
+	color: #659A00;
+	background-color:#C7F66F; 
+	border: 3px solid #B3DD63;
+	border: 3px solid #B5F63E;
+	border-radius: 5px;
+}
+
+.login-holder td {
+	color: #659A00;
+	text-align: right;
+}
+

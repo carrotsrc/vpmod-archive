@@ -1,0 +1,8 @@
+<table name="vp_feed">
+	<column name="id" type="int(11)" extra="NOT NULL AUTO_INCREMENT" />
+	<column name="guid" type="varchar(64)" extra="NOT NULL" />
+	<column name="title" type="varchar(128)" extra="NOT NULL" />
+	<column name="subtitle" type="text" extra="NOT NULL" />
+	<column name="updated" type="datetime" extra="NOT NULL" />
+	<primary name="id" />
+</table>

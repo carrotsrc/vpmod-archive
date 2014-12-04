@@ -1,0 +1,14 @@
+<table name="registration_queue">
+	<column name="id" type="int(11)" extra="NOT NULL AUTO_INCREMENT" />
+	<column name="username" type="varchar(32)" extra="NOT NULL" />
+	<column name="hash" type="varchar(64)" extra="NOT NULL" />
+	<column name="salt" type="char(64)" extra="NOT NULL" />
+	<column name="email" type="varchar(320)" extra="NOT NULL" />
+	<column name="actkey" type="char(32)" extra="NOT NULL" />
+	<primary name="id" />
+</table>
+
+<obj name="modreg" space="vpatch">
+	<module type="component" name="vp_reguser" space="vpatch" rout="reguser" />
+	<module type="component" name="vp_reg_queue" space="vpatch" rout="reguser" />
+</obj>

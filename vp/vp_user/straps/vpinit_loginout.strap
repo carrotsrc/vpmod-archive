@@ -1,0 +1,36 @@
+<!-- 
+Initialize a common setup for user access
+-->
+
+<obj name="modreg" space="vpatch">
+	<module type="panel" name="vp_login_ui" space="vpatch" rout="rlogin" />
+	<module type="component" name="vp_credman" space="vpatch" out="cid" rout="ridc" />
+	<instance id="{cid}" label="sysc_credman"></instance>
+
+	<module type="plugin" name="isuser" space="vpatch" out="cid" rout="ridp" />
+</obj>
+
+<resource type="Instance" ref="1" label="syspg_isuser" rout="ridi" />
+<relationship parent="{ridp}" child="{ridi}" />
+<!-- 
+here we setup a logout channel and area
+This way we just link to loc=logout and the user will be logged out
+-->
+
+<obj name="modreg" space="vpatch">
+	<module type="plugin" name="vp_logout" rout="ridp" out="vplo"/>
+</obj>
+<resource type="Instance" ref="1" label="syspg_logout" rout="ridc" />
+<relationship parent="{ridp}" child="{ridc}" />
+<obj name="channel" space="vpatch">
+
+	<channel name="sysch_logout" rout="ridch">
+		<plugin id="{vplo}" ref="1" />
+	</channel>
+</obj>
+
+<obj name="areacfg" space="vpatch">
+	<area name="logout" template="1" surround="1" rout="rida" />
+</obj>
+
+<relationship parent="{rida}" child="{ridch}" />

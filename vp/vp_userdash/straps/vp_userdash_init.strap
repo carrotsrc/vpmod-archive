@@ -1,0 +1,4 @@
+<obj name="modreg" space="vpatch">
+	<module type="component" name="vp_userdash" space="vpatch" />
+	<module type="panel" name="vp_userdash_ui" space="vpatch" />
+</obj>

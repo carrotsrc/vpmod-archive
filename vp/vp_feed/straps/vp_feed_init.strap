@@ -1,0 +1,4 @@
+<obj name="modreg" space="vpatch">
+	<module type="panel" name="vp_feed_ui" space="vpatch" />
+	<module type="component" name="vp_feed" space="vpatch" />
+</obj>

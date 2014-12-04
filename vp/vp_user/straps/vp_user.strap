@@ -1,0 +1,10 @@
+<table name="users">
+	<column name="id" type="int(11)" extra="NOT NULL AUTO_INCREMENT" />
+	<column name="username" type="varchar(32)" extra="NOT NULL" />
+	<column name="hash" type="varchar(64)" extra="NOT NULL" />
+	<column name="salt" type="char(64)" extra="NOT NULL" />
+	<column name="email" type="varchar(320)" extra="NOT NULL" />
+	<primary name="id" />
+</table>
+
+<rtype name="User" base="entity" />

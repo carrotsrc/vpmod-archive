@@ -1,0 +1,4 @@
+<obj name="modreg" space="vpatch">
+	<module type="component" name="vp_userman" space="vpatch" />
+	<module type="panel" name="vp_userman_ui" space="vpatch" />
+</obj>

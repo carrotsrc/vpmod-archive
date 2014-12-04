@@ -1,0 +1,20 @@
+<table name="vp_blog">
+	<column name="id" type="int(11)" extra="NOT NULL AUTO_INCREMENT" />
+	<column name="title" type="varchar(64)" extra="NOT NULL" />
+	<column name="parser" type="varchar(32)" extra="NOT NULL" />
+	<primary name="id" />
+</table>
+
+<table name="vp_blogpost">
+	<column name="id" type="int(11)" extra="NOT NULL AUTO_INCREMENT" />
+	<column name="instance" type="int(11)" extra="NOT NULL" />
+	<column name="post_id" type="int(11)" extra="NOT NULL" />
+	<column name="title" type="varchar(255)" extra="NOT NULL" />
+	<column name="contents" type="text" extra="NOT NULL" />
+	<column name="posted" type="TIMESTAMP" extra="NOT NULL" />
+	<column name="state" type="tinyint(1)" extra="NOT NULL" />
+	<primary name="id" />
+</table>
+
+<rtype name="VPBlog" base="abstract" />
+<rtype name="VPBlogPost" base="expression" />
